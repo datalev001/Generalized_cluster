@@ -7,6 +7,7 @@ from sklearn.cluster import AgglomerativeClustering, DBSCAN, KMeans, MiniBatchKM
 from sklearn.mixture import GaussianMixture
 from sklearn.metrics import silhouette_score
 
+# download data from https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 # Read the data from 'online_retail_II.xlsx' file
 tran_df = pd.read_excel('online_retail_II.xlsx')
 
